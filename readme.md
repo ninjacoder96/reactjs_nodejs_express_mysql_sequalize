@@ -13,7 +13,7 @@
         <li><code>DB</code></li>
     </ul>
 </li>
-<li>Run npm start to the command line and node server.js to the other command line</li>
+<li>Run <code>npm start</code> to the command line and <code>node server.js</code>to the other command line</li>
 </ul>
 </body>
 </html>
