@@ -4,7 +4,7 @@ import TutorialDataService from "../services/tutorial.service";
 import 'bootstrap/dist/css/bootstrap.css';
 import moment from 'moment';
 
-class App extends Component{
+class App extends React.Component{
    _isMounted = false;
    constructor(props) {
       super(props);
@@ -33,7 +33,7 @@ class App extends Component{
          }
         })
         .catch(e => {
-         //  console.log(e);
+          console.log(e);
         });
     }
    render(){
